@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <!-- sldiderr -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+
+
+
+    <style>
+        .animated-img {
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 4s linear forwards;
+        }
+
+        .animated-skills {
+            position: relative;
+            opacity: 0;
+            animation: moveleft 4s linear forwards;
+        }
+
+        .animatedcard {
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 3s linear forwards;
+        }
+
+        @keyframes moveleft {
+            0% {
+                opacity: 0;
+                transform: translateX(25px);
+            }
+
+            25% {
+                opacity: 0.5;
+                transform: translateX(50pxpx);
+            }
+
+            50% {
+                opacity: 0.5;
+                transform: translateX(75px);
+            }
+
+            75% {
+                opacity: 0.75;
+                transform: translateX(100px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateX(150px);
+            }
+
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(100px);
+            }
+
+            50% {
+                opacity: 0.5;
+                transform: translateY(25px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+
+    <title>Portfolio</title>
+</head>
+
+<body style="background-color: #2d2e32;">
+    <nav>
+        <div class="nav-bar">
+
+           
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">Hamx</a></span>
+                    <i class='bx bx-x sidebarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="contact-us-btn">
+                <a href="contact.html" id="conbtn"> Contact Us</a>
+                <i class='bx bx-menu sidebarOpen'></i>
+            </div>
+
+        </div>
+    </nav>
+    <!-- header start -->
+    <div class="header-section">
+        <div class="left-section">
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+    <dotlottie-player src="https://lottie.host/3110fb69-35d3-4330-8778-332b3e598f10/h378UQuIWx.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+        </div>
+        <div class="right-section">
+            <div class="intro animatedcard">
+                <h2 style="color: #64f4ab;">--Introduction</h2>
+            </div>
+            <div class="main-text">
+                <h1>
+
+                    Hello<br>
+                    I'm Vinayak <Br>
+                    Chavda
+                </h1>
+            </div>
+            <div class="paragraph animatedcard">
+                <p>I am a passionate and dedicated third-year Bachelor of Engineering in Information Technology student at LD College of Engineering.</p>
+                <p>My journey in the world of technology has been an exciting exploration of various domains, with a keen interest in App Development, Web Development, and Data Structures & Algorithms (DSA).</p>
+            </div>
+            <div class="contact-button animatedcard">
+                <a href="./contact.html" style="border-radius: 1em;">
+                    <p style="padding: 9px; "> Contact Us</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="skills">
+        <div class="container">
+            <div style="padding: 9% 5em;" class="content-section">
+                <p style="color: #64f4ab;">--My Skills</p>
+                <h1 style="padding:20px 1.5em; font-size: 36px;">Why Hire Me For the Next Project?</h1>
+                <p style="padding: 25px ; font-size: larger  ;">The technological revolution is changing aspects of
+                    our lives, and the fabric of society itself. It's also changing the way we learn and what we learn.
+                    Factual knowledge is less prized when everything you ever need to know can be found on your phone.
+                    There's no imperative to be an expert at doing everything when you can collaborate with specialists.
+                </p>
+
+
+                <div class="cv-button" style="padding: 26px;">
+                    <a href="./vinayak's Resume.pdf" download>Download CV</a>
+                </div>
+            </div>
+            <div class="cards-section">
+                <div class="card  card1 anime" style="background-color: #2d2e32; border: none;">
+                    <!-- Card 1 content goes here -->
+                    <div style="width: 300px; background-color: #25262a; padding: 20px; border-radius: 44px;">
+                        <div style="text-align: center; margin-left: 37%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 32 32" preserveAspectRatio="xMidYMid" fill="#8cc84b"><path d="M14.656.427c.8-.453 1.82-.455 2.6 0L29.2 7.16c.747.42 1.247 1.253 1.24 2.114v13.5c.005.897-.544 1.748-1.332 2.16l-11.88 6.702a2.6 2.6 0 0 1-2.639-.073l-3.565-2.06c-.243-.145-.516-.26-.688-.495.152-.204.422-.23.642-.32.496-.158.95-.4 1.406-.656.115-.08.256-.05.366.022l3.04 1.758c.217.125.437-.04.623-.145l11.665-6.583c.144-.07.224-.222.212-.38V9.334c.016-.18-.087-.344-.25-.417L16.19 2.244a.41.41 0 0 0-.465-.001L3.892 8.93c-.16.073-.27.235-.25.415v13.37c-.014.158.07.307.215.375l3.162 1.785c.594.32 1.323.5 1.977.265a1.5 1.5 0 0 0 .971-1.409l.003-13.29c-.014-.197.172-.36.363-.34h1.52c.2-.005.357.207.33.405L12.18 23.88c.001 1.188-.487 2.48-1.586 3.063-1.354.7-3.028.553-4.366-.12l-3.4-1.88c-.8-.4-1.337-1.264-1.332-2.16v-13.5a2.46 2.46 0 0 1 1.282-2.141L14.656.427zM18.1 9.785c1.727-.1 3.576-.066 5.13.785 1.203.652 1.87 2.02 1.892 3.358-.034.18-.222.28-.394.267-.5-.001-1.002.007-1.504-.003-.213.008-.336-.188-.363-.376-.144-.64-.493-1.273-1.095-1.582-.924-.463-1.996-.44-3.004-.43-.736.04-1.527.103-2.15.535-.48.328-.624 1-.453 1.522.16.383.603.506.964.62 2.082.544 4.287.5 6.33 1.207.845.292 1.672.86 1.962 1.745.378 1.186.213 2.604-.63 3.556-.684.784-1.68 1.2-2.675 1.442-1.323.295-2.695.302-4.038.17-1.263-.144-2.577-.476-3.552-1.336-.834-.724-1.24-1.852-1.2-2.94.01-.184.193-.312.37-.297h1.5c.202-.014.35.16.36.35.093.6.322 1.25.854 1.6 1.026.662 2.313.616 3.487.635.973-.043 2.065-.056 2.86-.7.42-.367.543-.98.43-1.508-.123-.446-.6-.653-1-.8-2.055-.65-4.285-.414-6.32-1.15-.826-.292-1.625-.844-1.942-1.693-.443-1.2-.24-2.687.693-3.607.9-.915 2.22-1.268 3.47-1.394z"/></svg>
+                        </div>
+                        <h3 style="text-align: center; margin-top: 20px; color: #ffffff; font-family:monospace;">NodeJS</h3>
+                        <p style="text-align: center; color: #E8E8E8;font-family:monospace;"> Empowering developers to build scalable and efficient server-side applications with JavaScript.</p>
+                    </div>
+                </div>
+                <div class="card  card2 anime" style="background-color: #2d2e32; border: none;">
+                    <!-- Card 2 content goes here -->
+                    <div style="width: 300px; background-color: #25262a; padding: 20px; border-radius: 44px;">
+                        <div style="text-align: center; margin-left: 37%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 32 32"><g transform="matrix(.05696 0 0 .05696 .647744 2.43826)" fill="none" fill-rule="evenodd"><circle r="50.167" cy="237.628" cx="269.529" fill="#00d8ff"/><g stroke="#00d8ff" stroke-width="24"><path d="M269.53 135.628c67.356 0 129.928 9.665 177.107 25.907 56.844 19.57 91.794 49.233 91.794 76.093 0 27.99-37.04 59.503-98.083 79.728-46.15 15.29-106.88 23.272-170.818 23.272-65.554 0-127.63-7.492-174.3-23.44-59.046-20.182-94.61-52.103-94.61-79.56 0-26.642 33.37-56.076 89.415-75.616 47.355-16.51 111.472-26.384 179.486-26.384z"/><path d="M180.736 186.922c33.65-58.348 73.28-107.724 110.92-140.48C337.006 6.976 380.163-8.48 403.43 4.937c24.248 13.983 33.042 61.814 20.067 124.796-9.8 47.618-33.234 104.212-65.176 159.6-32.75 56.788-70.25 106.82-107.377 139.272-46.98 41.068-92.4 55.93-116.185 42.213-23.08-13.3-31.906-56.92-20.834-115.233 9.355-49.27 32.832-109.745 66.8-168.664z"/><path d="M180.82 289.482C147.075 231.2 124.1 172.195 114.51 123.227c-11.544-59-3.382-104.11 19.864-117.566 24.224-14.024 70.055 2.244 118.14 44.94 36.356 32.28 73.688 80.837 105.723 136.173 32.844 56.733 57.46 114.21 67.036 162.582 12.117 61.213 2.31 107.984-21.453 121.74-23.057 13.348-65.25-.784-110.24-39.5-38.013-32.71-78.682-83.253-112.76-142.115z"/></g></g></svg>
+                        </div>
+                        <h3 style="text-align: center; margin-top: 20px; color: #ffffff; font-family:monospace;">ReactJS</h3>
+                        <p style="text-align: center; color: #E8E8E8;font-family:monospace;">
+ReactJS is a JavaScript library for building user interfaces, known for its component-based architecture and efficient rendering.</p>
+                    </div>
+
+
+                </div>
+                <div class="card  card3 anime" style="background-color: #2d2e32; border: none;">
+                    <!-- Card 3 content goes here -->
+                    <div style="width: 300px; background-color: #25262a; padding: 20px; border-radius: 44px;">
+                        <div style="text-align: center; margin-left: 37%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64"><g transform="matrix(.061615 0 0 .061615 -1.430818 -1.2754)"><defs><path id="A" d="M959.4 500L679.8 779.7l279.6 279.7H639.9L360.2 779.7 639.9 500h319.5zM639.9 20.7L120.6 540l159.8 159.8 679-679.1H639.9z"/></defs><clipPath id="B"><use xlink:href="#A"/></clipPath><g clip-path="url(#B)"><path d="M360.3 779.7L520 939.5 959.4 500H639.9z" fill="#39cefd"/></g><defs><path id="C" d="M959.4 500L679.8 779.7l279.6 279.7H639.9L360.2 779.7 639.9 500h319.5zM639.9 20.7L120.6 540l159.8 159.8 679-679.1H639.9z"/></defs><clipPath id="D"><use xlink:href="#C"/></clipPath><path clip-path="url(#D)" d="M639.9 20.7h319.5l-679 679.1L120.6 540z" fill="#39cefd"/><defs><path id="E" d="M959.4 500L679.8 779.7l279.6 279.7H639.9L360.2 779.7 639.9 500h319.5zM639.9 20.7L120.6 540l159.8 159.8 679-679.1H639.9z"/></defs><clipPath id="F"><use xlink:href="#E"/></clipPath><path clip-path="url(#F)" d="M520 939.5l119.9 119.8h319.5L679.8 779.7z" fill="#03569b"/><defs><path id="G" d="M959.4 500L679.8 779.7l279.6 279.7H639.9L360.2 779.7 639.9 500h319.5zM639.9 20.7L120.6 540l159.8 159.8 679-679.1H639.9z"/></defs><clipPath id="H"><use xlink:href="#G"/></clipPath><linearGradient id="I" gradientUnits="userSpaceOnUse" x1="566.635" y1="970.339" x2="685.65" y2="851.324"><stop offset="0" stop-color="#1a237e" stop-opacity=".4"/><stop offset="1" stop-color="#1a237e" stop-opacity="0"/></linearGradient><path clip-path="url(#H)" d="M757 857.4l-77.2-77.7L520 939.5z" fill="url(#I)"/><defs><path id="J" d="M959.4 500L679.8 779.7l279.6 279.7H639.9L360.2 779.7 639.9 500h319.5zM639.9 20.7L120.6 540l159.8 159.8 679-679.1H639.9z"/></defs><clipPath id="K"><use xlink:href="#J"/></clipPath><g clip-path="url(#K)"><path d="M360.282 779.645L520.086 619.84 679.9 779.645 520.086 939.45z" fill="#16b9fd"/></g><radialGradient id="L" cx="7824.659" cy="-2855.979" r="5082.889" gradientTransform="matrix(0.25,0,0,-0.25,-1812,-622.5)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff" stop-opacity=".1"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient><path d="M959.4 500L679.8 779.7l279.6 279.7H639.9L360.2 779.7 639.9 500h319.5zM639.9 20.7L120.6 540l159.8 159.8 679-679.1H639.9z" fill="url(#L)"/></g></svg>
+                        </div>
+                        <h3 style="text-align: center; margin-top: 20px; color: #ffffff; font-family:monospace;">Flutter</h3>
+                        <p style="text-align: center; color: #E8E8E8;font-family:monospace;">Flutter is a UI toolkit from Google, enabling the creation of natively compiled applications for mobile, web, and desktop from a single codebase, using a reactive framework.</p>
+                    </div>
+
+
+                </div>
+                <div class="card  card4 anime" style="background-color: #2d2e32;border: none;">
+                    <!-- Card 4 content goes here -->
+                    <div style="width: 300px; background-color: #25262a; padding: 20px; border-radius: 44px;">
+                        <div style="text-align: center; margin-left: 37%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 218.397 256"><defs><clipPath id="A"><path d="M0 595.28h841.9V0H0v595.28z"/></clipPath></defs><g clip-path="url(#A)" transform="matrix(.664774 0 0 -.664774 -170.503205 325.655228)"><g fill="#fff"><path d="M287.588 213.305c-17.157-.01-31.095 13.946-31.097 31.1l-.008 95.217c-.006 17.137 13.93 31.1 31.063 31.093a30.88 30.88 0 0 0 22.011-9.096 30.9 30.9 0 0 0 9.12-21.988l-.008-95.225a30.73 30.73 0 0 0-9.079-21.969 30.85 30.85 0 0 0-22.002-9.133"/><path d="M287.564 362.36c-12.556.006-22.732-10.2-22.735-22.735l.017-95.214c.003-12.588 10.197-22.747 22.738-22.76 12.566.015 22.744 10.178 22.73 22.758l.002 95.227a22.75 22.75 0 0 1-22.753 22.723m243.902-4.714l-8.36.003-213.175-.03-.003 8.36c-.02 34.32 18.68 66.242 49.304 85.102l-11.906 21.733c-1.458 2.548-1.822 5.772-.975 8.723.86 2.95 2.894 5.482 5.62 6.933 1.576.894 3.5 1.4 5.45 1.388 4.216-.001 8.083-2.3 10.117-6l12.462-22.7c12.897 4.732 26.5 7.144 40.576 7.14 14.268.006 27.95-2.4 40.902-7.16l12.442 22.74c2.003 3.7 5.895 6 10.106 5.986 1.896.002 3.786-.46 5.455-1.36 2.8-1.536 4.75-3.984 5.6-6.954.855-2.952.512-6.07-.988-8.774l-11.9-21.723c30.578-18.898 49.254-50.796 49.25-85.057l.01-8.362z"/><path d="M467.357 403.095c-4.734-.005-8.597 3.828-8.588 8.585 0 4.707 3.848 8.588 8.592 8.604a8.64 8.64 0 0 0 8.568-8.609c.003-4.74-3.84-8.58-8.572-8.58m-93.257-.017a8.59 8.59 0 0 0-8.56 8.581c.002 4.718 3.842 8.596 8.567 8.596a8.61 8.61 0 0 0 8.596-8.594c.002-4.733-3.847-8.58-8.603-8.583m96.818 44.782l15.87 28.98a3.16 3.16 0 0 1-1.238 4.293c-1.552.836-3.467.265-4.285-1.257l-16.035-29.27c-13.486 5.985-28.585 9.356-44.547 9.34-15.93.013-31-3.34-44.448-9.3l-16.046 29.207c-.828 1.54-2.762 2.103-4.27 1.255-1.543-.823-2.107-2.76-1.252-4.27l15.878-28.956c-31.196-16.092-52.27-46.727-52.255-81.9l204.8.02c.006 35.167-21.032 65.738-52.18 81.865"/><path d="M382.682 104.78c-17.14.002-31.1 13.944-31.093 31.095l-.008 42.023-8.167-.007a32.38 32.38 0 0 0-23.074 9.549 32.33 32.33 0 0 0-9.548 23.084l-.032 155.897 220 .036.022-155.9c.003-17.993-14.635-32.635-32.625-32.63l-8.223-.01.012-42.008c-.002-17.14-13.946-31.097-31.08-31.096-8.305-.02-16.102 3.2-21.987 9.097a30.81 30.81 0 0 0-9.13 21.98v42.03h-13.973V135.9c-.003-17.146-13.948-31.1-31.095-31.106"/><path d="M319.16 210.524c-.012-13.436 10.833-24.282 24.257-24.277l16.52-.001.02-50.38c-.003-12.54 10.187-22.738 22.72-22.74 12.564 0 22.742 10.206 22.73 22.756l.002 50.368 30.696.005-.002-50.377c.01-12.543 10.214-22.75 22.744-22.728 12.562-.008 22.747 10.198 22.745 22.75l-.014 50.363 16.58.005c13.378-.005 24.26 10.867 24.26 24.274l-.026 147.56-203.27-.036.037-147.542zm234.772 2.82c-17.148-.002-31.098 13.933-31.093 31.087l-.023 95.217c.004 17.152 13.93 31.102 31.072 31.103 17.162.002 31.118-13.945 31.115-31.093l.01-95.2c.004-17.14-13.933-31.106-31.08-31.103"/><path d="M553.905 362.4c-12.555.01-22.73-10.186-22.73-22.743l.01-95.213c.006-12.572 10.177-22.743 22.743-22.735 12.555.002 22.72 10.165 22.73 22.743l-.025 95.2c-.002 12.56-10.17 22.74-22.728 22.737"/></g><path d="M576.642 339.658c-.002 12.557-10.18 22.734-22.736 22.73-12.555.01-22.732-10.185-22.73-22.743l.016-95.215c-.001-12.57 10.172-22.73 22.736-22.733a22.73 22.73 0 0 1 22.73 22.743l-.017 95.217zm-257.517 18.408l.035-147.555c-.01-13.422 10.845-24.255 24.26-24.258l16.52-.007.02-50.38c-.003-12.54 10.193-22.74 22.72-22.74 12.564 0 22.742 10.206 22.745 22.755l-.012 50.37 30.696.006.013-50.377c-.003-12.536 10.2-22.75 22.728-22.73 12.563-.008 22.747 10.198 22.745 22.75l-.014 50.363 16.577.013c13.382-.005 24.268 10.844 24.27 24.266l-.025 147.557-203.277-.034zm148.233 45.03c-4.735-.005-8.6 3.834-8.588 8.585.016 4.705 3.848 8.588 8.592 8.604a8.64 8.64 0 0 0 8.568-8.609 8.57 8.57 0 0 0-8.572-8.58m-93.258-.017a8.59 8.59 0 0 0-8.559 8.581c.002 4.718 3.835 8.597 8.567 8.596a8.61 8.61 0 0 0 8.596-8.594c.002-4.732-3.848-8.58-8.604-8.583m96.818 44.782l15.87 28.98c.846 1.514.3 3.443-1.245 4.298-1.547.82-3.46.263-4.278-1.262l-16.03-29.283c-13.5 6-28.582 9.37-44.553 9.352-15.93.013-31.016-3.34-44.448-9.3l-16.046 29.207c-.836 1.54-2.755 2.098-4.27 1.26-1.545-.83-2.1-2.763-1.253-4.274l15.877-28.96c-31.195-16.1-52.27-46.724-52.255-81.896l204.8.02c.006 35.167-21.032 65.738-52.18 81.865m-183.354-85.5c-12.556.006-22.732-10.2-22.735-22.736l.017-95.213a22.73 22.73 0 0 1 22.74-22.743 22.71 22.71 0 0 1 22.729 22.742l.002 95.227c-.005 12.542-10.196 22.73-22.753 22.723" fill="#a4c439"/></g></svg>
+                        </div>
+                        <h3 style="text-align: center; margin-top: 20px; color: #ffffff; font-family:monospace;">Android</h3>
+                        <p style="text-align: center; color: #E8E8E8;font-family:monospace;">
+Android is a mobile operating system developed by Google, based on the Linux kernel, primarily designed for touchscreen devices such as smartphones and tablets.</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills details section  -->
+
+
+    <div class="container skillsdelt mx-auto pt-16">
+        <div class="flex flex-wrap">
+            <div class="w-full lg:w-1/2" id="leftSection">
+                <div class="flex flex-col h-full p-10 left_sec ">
+                    <div class="mb-4 mt-4">
+                        <h4 style="color: #64f4ab;" style=" font-family:monospace;" class="text-lg  font-bold">Project 1
+                        </h4>
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <h2 class="text-5xl text-white font-bold " style=" font-family:monospace;">Noteify
+                        </h2>
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <p class="text-white text-lg" style=" font-family:monospace;">
+                            In an era defined by the rapid pace of technological advancement,<br> the way we learn, work, and organize our lives is undergoing a profound transformation. With the advent of smartphones and ubiquitous access to information,<br> the traditional methods of note-taking and information retention are evolving. <br>Enter Noteify - a digital notebook designed to seamlessly integrate into your daily life and empower you to capture, organize, and access your thoughts and ideas effortlessly.
+                            </p>
+                    </div>
+                    <div class="flex items-center">
+                        <a href="https://github.com/vinayak501/Notes_App" class="flex items-center text-white text-yellow-500" target="_blank">
+                            <span class=" mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10.998"
+                                    viewBox="0 0 18 10.998">
+                                    <g id="right_arrow_-_icon" data-name="right arrow - icon"
+                                        transform="translate(21 -6.501) rotate(90)">
+                                        <path id="Path_98" data-name="Path 98"
+                                            d="M6.59,11.858a.714.714,0,0,0,.627.38h4.066v8.028a.717.717,0,1,0,1.434,0V12.238h4.066a.713.713,0,0,0,.627-.38.748.748,0,0,0-.02-.745l-4.783-7.77a.709.709,0,0,0-1.214,0L6.61,11.113A.754.754,0,0,0,6.59,11.858Z"
+                                            fill="#fecd1a" />
+                                    </g>
+                                </svg></span>
+                            See Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full lg:w-1/2 anime" id="rightSection">
+                <div class="flex justify-center items-center h-full">
+                    <div class="w-3/4">
+                        <img style="border-radius: 37px;"
+                            src="https://demo.phlox.pro/freelancer/wp-content/uploads/sites/272/2021/02/portfolio-1-img.jpg"
+                            alt="Image" class="w-full h-auto rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container skillsdelt mt-20 pt-16">
+        <div class="flex flex-wrap">
+            <div class="w-full lg:w-1/2 anime" id="rightSection1">
+                <div class="flex justify-center items-center h-full">
+                    <div class="w-3/4 ">
+                        <img style="border-radius: 37px;"
+                            src="./meal_plan_application_design.jpg"
+                            alt="Image" class="w-full h-auto rounded-lg">
+                    </div>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/2" id="leftSection1">
+                <div class="flex flex-col h-full p-10 left_sec ">
+                    <div class="mb-4 mt-4">
+                        <h4 style="color: #64f4ab;" style=" font-family:monospace;" class="text-lg  font-bold">Project 2
+                        </h4>
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <h2 class="text-5xl text-white font-bold " style=" font-family:monospace;">CookPal</h2>
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <p class="text-white text-lg" style=" font-family:monospace;">In today's digital age, the culinary landscape is ripe with endless possibilities, offering a plethora of recipes and cooking inspirations at our fingertips.<br>
+However, with the abundance of information comes the challenge of organizing and managing our culinary endeavors.<br>
+Enter CookPal - a revolutionary mobile application designed to serve as your ultimate culinary companion, empowering you to discover, save, and organize recipes with ease.
+                        </p>
+                    </div>
+                    <div class="flex items-center">
+                        <a href="https://github.com/vinayak501/Meals-App" class="flex items-center text-white text-yellow-500" target="_blank">
+                            <span class=" mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10.998"
+                                    viewBox="0 0 18 10.998">
+                                    <g id="right_arrow_-_icon" data-name="right arrow - icon"
+                                        transform="translate(21 -6.501) rotate(90)">
+                                        <path id="Path_98" data-name="Path 98"
+                                            d="M6.59,11.858a.714.714,0,0,0,.627.38h4.066v8.028a.717.717,0,1,0,1.434,0V12.238h4.066a.713.713,0,0,0,.627-.38.748.748,0,0,0-.02-.745l-4.783-7.77a.709.709,0,0,0-1.214,0L6.61,11.113A.754.754,0,0,0,6.59,11.858Z"
+                                            fill="#fecd1a" />
+                                    </g>
+                                </svg></span>
+                            See Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- line no 3 -->
+
+
+    <div class="container skillsdelt mt-20 pt-16">
+        <div class="flex flex-wrap">
+            <div class="w-full lg:w-1/2" id="leftSection2">
+                <div class="flex flex-col h-full p-10 left_sec ">
+                    <div class="mb-4 mt-4">
+                        <h4 style="color: #64f4ab;" style=" font-family:monospace;" class="text-lg  font-bold">Project 3
+                        </h4>
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <h2 class="text-5xl text-white font-bold " style=" font-family:monospace;">Resturant Landing
+                            Page
+
+                        </h2>
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <p class="text-white text-lg" style=" font-family:monospace;">The technological revolution is
+                            changing aspect of our lives, and the fabric of society itself. it's also changing the way
+                            we learn and what we learn. Factual knowledge is less prized when everything you ever need
+                            to know can be found on your phone. There's no imperative to be an expert at doing
+                            everything when you can.</p>
+                    </div>
+                    <div class="flex items-center">
+                        <a href="#" class="flex items-center text-white text-yellow-500" target="_blank">
+                            <span class=" mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10.998"
+                                    viewBox="0 0 18 10.998">
+                                    <g id="right_arrow_-_icon" data-name="right arrow - icon"
+                                        transform="translate(21 -6.501) rotate(90)">
+                                        <path id="Path_98" data-name="Path 98"
+                                            d="M6.59,11.858a.714.714,0,0,0,.627.38h4.066v8.028a.717.717,0,1,0,1.434,0V12.238h4.066a.713.713,0,0,0,.627-.38.748.748,0,0,0-.02-.745l-4.783-7.77a.709.709,0,0,0-1.214,0L6.61,11.113A.754.754,0,0,0,6.59,11.858Z"
+                                            fill="#fecd1a" />
+                                    </g>
+                                </svg></span>
+                            See Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full lg:w-1/2  anime" id="rightSection2">
+                <div class="flex justify-center items-center h-full">
+                    <div class="w-3/4">
+                        <img style="border-radius: 37px;"
+                            src="https://demo.phlox.pro/freelancer/wp-content/uploads/sites/272/2021/02/portfolio-3-img.jpg"
+                            alt="Image" class="w-full h-auto rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="center-button">
+        <button style="background-color: #ffaf29;">View All
+            <div class="star-1">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                            class="fil0"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-2">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                            class="fil0"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-3">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                            class="fil0"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-4">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                            class="fil0"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-5">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                            class="fil0"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-6">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                            class="fil0"></path>
+                    </g>
+                </svg>
+            </div>
+        </button>
+    </div>
+
+
+
+    <div class="footer1">
+        <div class="infoo" style="margin-left: 20px;">
+            <h3 style="color: white;">© 2024 - Crafted with passion and creativity by Vinayak.</h3>
+        </div>
+        <div class="otheracc">
+
+            <div class="elementor-grid-item">
+                <a class="elementor-icon elementor-social-icon elementor-social-icon-auxicon-twich elementor-repeater-item-395a9c5"
+                    href="#" target="_blank">
+
+                    <i class="auxicon auxicon-twich"></i> </a>
+            </div>>
+            <div class="elementor-grid-item">
+                <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-repeater-item-638ce13"
+                    href="https://www.linkedin.com/in/vinayak-chavda-806a40284/" target="_blank">
+
+                    <i class="fab fa-linkedin-in"></i> </a>
+            </div>>
+            <div class="elementor-grid-item">
+                <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-c0177e3"
+                    href="https://www.instagram.com/vinayak.501/?igsh=Mjd4ZmtmMjhrcnh5" target="_blank">
+
+                    <i class="fab fa-instagram"></i> </a>
+            </div>>
+            <div class="elementor-grid-item">
+                <a class="elementor-icon elementor-social-icon elementor-social-icon-behance elementor-repeater-item-45053c6"
+                    href="https://github.com/vinayak501" target="_blank">
+                    <i class="fab fa-github"></i> </a>
+            </div>>
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+    <script>
+
+
+
+        const intersectionCallback = (entries) => {
+            for (const entry of entries) { // Loop over all elements that either enter or exit the view.
+                if (entry.isIntersecting) { // This is true when the element is in view.
+                    entry.target.classList.add('animatedcard'); // Add a class.
+                }
+            }
+        }
+
+        const observer = new IntersectionObserver(intersectionCallback);
+
+        const items = document.querySelectorAll('.anime');
+        for (const item of items) {
+            observer.observe(item);
+            console.log("observ");
+        }
+
+    </script>
+
+    <script>
+        $(window).on('scroll', function () {
+            var st = $(this).scrollTop(),
+                vh = $(this).height(),
+                $counter = $('.wrapperx'),
+                ct = $counter.offset().top;
+            if ((st + vh) > ct) {
+                // #counter is in the viewport
+
+                let valueDisplays = document.querySelectorAll(".num");
+                let interval = 100;
+
+                valueDisplays.forEach((valueDisplay) => {
+                    let startValue = 0;
+                    let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+                    let duration = Math.floor(interval / endValue);
+                    let counter = setInterval(function () {
+                        startValue += 1;
+                        valueDisplay.textContent = startValue;
+                        if (startValue == endValue) {
+                            clearInterval(counter);
+                        }
+                    }, duration);
+                });
+            }
+        })</script>
+
+</body>
+</body>
+
+</html>
